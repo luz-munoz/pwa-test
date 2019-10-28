@@ -7,10 +7,15 @@
   
   html, body {
     margin: 0px !important;
-    color: #7f8c8d;
+    color: #7f8c8d86;
     font-size: 16px;
     background-color: #dde1e2; 
     width: 100%;
+
+    overscroll-behavior-y: contain; /* android */
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
 }
 
 /* Personalizados */
